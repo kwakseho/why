@@ -3,11 +3,33 @@
     
 </head>
 <body>
-    <button onclick="LeeYesun()">Lee Yesun</button>
-    <script>
-        function LeeYesun() {
-            document.write("Son Jimin")
-        }
-    </script>
+    <form class="subform" method="POST" data-email="abc@nate.com" 
+    action="https://script.google.com/macros/s/AKfycbwafGjoUpwg10VdMQtWRgnq7-BlDUElE7RGW9rShhxAXjENKiPCzwIcpie_n8Rz0HSd/exec" target="frAttachFiles">
+    <fieldset>
+      <legend style="text-align:center">로그인</legend>
+      <div style="text-align:center">
+          <div>
+            <input type="text" name="name" id="uname" placeholder="*Name" />
+          </div>
+       
+          <div>
+            <input type="email" name="email" id="uemail" placeholder="*Email" />
+          </div>
+    
+            <div>
+              <input type="password" name="password" id="upassword" placeholder="*password" />
+            </div>
+            <select name="성별">
+              <option value="">남자</option>
+              <option value="여자">여자</option>
+              
+            </select>
+            <br>
+     <button>send</button>
+    </div>
+    </fieldset>
+    </form>
+
+     <iframe name="frAttachFiles" style="display: none"></iframe>
 </body>
 </html>
